@@ -3,7 +3,7 @@
 
 (defn app []
   [:div#app
-   [:h1 "shadow-cljs reagent template"]])
+   [:h1 "Jumpstart Clojure!"]])
 
 (defn render []
   (rdom/render [app]
