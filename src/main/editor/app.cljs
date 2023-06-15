@@ -1,4 +1,4 @@
-(ns shadow-reagent.app
+(ns editor.app
   (:require [reagent.dom :as rdom]))
 
 (defn app []
