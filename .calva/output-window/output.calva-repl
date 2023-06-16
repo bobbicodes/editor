@@ -10,7 +10,7 @@
 ;   - See https://calva.io/connect-sequences/
 ; 
 ; Starting Jack-in Terminal: pushd c:\Users\porko\Documents\GitHub\editor & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app & popd
-; Using host:port localhost:61781 ...
+; Using host:port localhost:61940 ...
 ; Hooking up nREPL sessions ...
 ; Connected session: clj
 ; TIPS:
@@ -34,6 +34,52 @@ clj꞉shadow.user꞉> 
 ; Waiting for Shadow CLJS runtimes, start your CLJS app...
 ; Waiting for Shadow CLJS runtimes, start your CLJS app...
 ; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Timed out waiting for Shadow CLJS runtimes, pretending we are connected.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+; No available JS runtime.
+; See https://shadow-cljs.github.io/docs/UsersGuide.html#repl-troubleshooting
+clj꞉cljs.user꞉> 
+; Jack-in done.
+clj꞉cljs.user꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\porko\Documents\GitHub\editor & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app & popd
+; Using host:port localhost:62413 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
 ; Connected session: cljs, repl: :app
 ; TIPS: You can choose which REPL to use (clj or cljs):
 ;    *Calva: Toggle REPL connection*
@@ -43,3 +89,163 @@ nil
 clj꞉cljs.user꞉> 
 ; Jack-in done.
 clj꞉cljs.user꞉> 
+nil
+clj꞉nextjournal.clojure-mode꞉> 
+#'nextjournal.clojure-mode/fold-node-props
+clj꞉nextjournal.clojure-mode꞉> 
+#'nextjournal.clojure-mode/style-tags
+clj꞉nextjournal.clojure-mode꞉> 
+#'nextjournal.clojure-mode/parser
+clj꞉nextjournal.clojure-mode꞉> 
+#'nextjournal.clojure-mode/syntax
+clj꞉nextjournal.clojure-mode꞉> 
+#'nextjournal.clojure-mode/complete-keymap
+clj꞉nextjournal.clojure-mode꞉> 
+#'nextjournal.clojure-mode/builtin-keymap
+clj꞉nextjournal.clojure-mode꞉> 
+#'nextjournal.clojure-mode/paredit-keymap
+clj꞉nextjournal.clojure-mode꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+; Cannot read properties of undefined (reading 'define')
+clj꞉nextjournal.clojure-mode꞉> 
+nil
+clj꞉editor.sci-editor꞉> 
+#'editor.sci-editor/theme
+clj꞉editor.sci-editor꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+; module$node_modules$$codemirror$gutter$dist$index_cjs.lineNumbers is not a function
+clj꞉editor.sci-editor꞉> 
+nil
+clj꞉editor.sci-editor꞉> 
+#'editor.sci-editor/theme
+clj꞉editor.sci-editor꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+; module$node_modules$$codemirror$gutter$dist$index_cjs.lineNumbers is not a function
+clj꞉editor.sci-editor꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\porko\Documents\GitHub\editor & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app & popd
+; Using host:port localhost:63125 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+clj꞉cljs.user꞉> 
+; Jack-in done.
+clj꞉cljs.user꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\porko\Documents\GitHub\editor & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app & popd
+; Using host:port localhost:63367 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Waiting for Shadow CLJS runtimes, start your CLJS app...
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+clj꞉cljs.user꞉> 
+; Jack-in done.
+clj꞉cljs.user꞉> 
+nil
+cljs꞉nextjournal.clojure-mode.live-grammar꞉>  ; Use `alt+enter` to evaluate
+nil
+cljs꞉nextjournal.clojure-mode.live-grammar꞉> 
+:repl/exception!
+; 
+; Execution error (TypeError) at (<cljs repl>:1).
+; src[0].set is not a function
+cljs꞉nextjournal.clojure-mode.live-grammar꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "shadow-cljs" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\porko\Documents\GitHub\editor & npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app & popd
+; Using host:port localhost:63638 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉shadow.user꞉> 
+clj꞉shadow.user꞉> 
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Please start your ClojureScript app so that Calva can connect to its REPL...
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.cljs'
+nil
+cljs꞉cljs.user꞉> 
+; Jack-in done.
+cljs꞉cljs.user꞉> 

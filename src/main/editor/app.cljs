@@ -1,9 +1,11 @@
 (ns editor.app
-  (:require [reagent.dom :as rdom]))
+  (:require [reagent.dom :as rdom]
+            [editor.views :as views]))
 
 (defn app []
   [:div#app
-   [:h1 "Jumpstart Clojure!"]])
+   [:h1 "Jumpstart Clojure!"]
+   [views/main-panel]])
 
 (defn render []
   (rdom/render [app]
